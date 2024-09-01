@@ -1,0 +1,60 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+}
+h1 {
+  color: 333;
+}
+form {
+  margin-bottom: 20px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #1c8e99;
+}
+button {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #fff;
+  border: 1px solid #a09f9f;
+  color: #000;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+  border: 1px solid ddd;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+}
+li > div {
+  display: flex;
+  flex-direction: column;
+}
+.add-task {
+  background-color: #1c8e99;
+  color: #fff;
+}
+/* button + button {
+  background-color: #FF4136;
+}
+button + button:hover {
+  background-color: #d83a2a;
+} */
