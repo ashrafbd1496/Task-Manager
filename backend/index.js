@@ -5,7 +5,7 @@ const path = require("path");
 const tasksRouter = require("./routes/tasks");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.use(cors()); // Enable CORS for cross-origin requests
 app.use(express.json()); // Parse incoming JSON requests
