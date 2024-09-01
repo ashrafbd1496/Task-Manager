@@ -1,5 +1,5 @@
 {
-  "name": "Task Management",
+  "name": "task-manager",
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm start --prefix backend\" \"npm start --prefix frontend\"",
